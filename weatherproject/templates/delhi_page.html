@@ -1,0 +1,49 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WeatherSite</title>
+  <link rel="stylesheet" href="{%static 'custom_page.css'%}">
+</head>
+<nav>
+  <div class="left_item">
+    <a href="{%url 'profile'%}"><label>Profile</label></a>
+    <a href="{%url 'login'%}"><label>Logout</label></a>
+
+  </div>
+</nav>
+
+<body>
+
+  <div class="header">
+    <p>Weather data Of Delhi</p>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <h1 class="name" id="name"></h1>
+      <p class="dono">...</p><br><br>
+      <p class="temp"></p>
+      <p class="temp_c"></p>
+      <p class="humidity"></p>
+      <p class="speed"></p>
+      <p class="clouds"></p>
+      <p class="desc"></p>
+    </div>
+  </div>
+  <script src="{%static 'delhi_page.js'%}"></script>
+</body>
+<footer>
+  <div class="footer_content">
+    <p>DSATM in Collabration with WW</p>
+  </div>
+  <div class="copy_content">
+    <p>Copyright &copy; Raghavendra R Bavagi</p>
+  </div>
+</footer>
+
+</html>

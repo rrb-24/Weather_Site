@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    background: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #24252a;
+    display: flex;
+}
+
+nav .left_item a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    color: #0284f6;
+    /* float: left; */
+    text-decoration: none;
+}
+
+.left_item a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.input {
+    text-align: center;
+    margin: 60px auto;
+    word-spacing: 10px;
+}
+
+input[type="submit"] {
+    padding: 15px 30px;
+    background: #0284f6;
+    border: none;
+    border-radius: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.input input[type="text"] {
+    width: auto;
+    height: 55px;
+    padding: 5px 10px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 15px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card {
+    width: auto;
+    /* height: auto; */
+    /* background: #ec7979; */
+    border: 2px solid orange;
+    /* margin: 30px auto; */
+    /* height: 40vh; */
+    border-radius: 2px;
+    padding: 10px;
+}
+
+
+.close {
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.card h1 {
+    padding: 10px 0;
+    text-align: center;
+    float: left;
+}
+
+.card .dono {
+    float: right;
+}
+
+.card .temp {
+    padding-top: 10px;
+}
+
+.card p {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #24252a;
+}
+
+footer .footer_content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer .copy_content p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
